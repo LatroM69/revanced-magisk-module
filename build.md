@@ -1,21 +1,23 @@
-CLI: revanced-cli-2.19.0-all.jar  
-Integrations: app-release-unsigned-v0.86.1.apk  
-Patches: revanced-patches-2.147.0.jar  
+CLI: revanced-cli-2.21.0-all.jar  
+Integrations: revanced-integrations-0.93.1.apk  
+Patches: revanced-patches-2.156.0.jar  
 
-### [2.147.0](https://github.com/revanced/revanced-patches/compare/v2.146.0...v2.147.0) (2022-12-21)
+### [2.156.0](https://github.com/revanced/revanced-patches/compare/v2.155.0...v2.156.0) (2023-01-17)
+### Bug Fixes
+* **reddit/general-reddit-ads:** specify last version that works correctly ([#1495](https://github.com/revanced/revanced-patches/issues/1495)) ([2a3bedd](https://github.com/revanced/revanced-patches/commit/2a3bedd5608d2f23b174c4227ac167e44e54215e))
 ### Features
-* **youtube/return-youtube-dislike:** debug connection statistics, toast on error, high priority background threads ([#1320](https://github.com/revanced/revanced-patches/issues/1320)) ([30273a9](https://github.com/revanced/revanced-patches/commit/30273a9bbdd40453baeb09f26ac9d218569a3e71))
+* explain how to capture crash logs [skip ci] ([f938ba8](https://github.com/revanced/revanced-patches/commit/f938ba81ec98f06f508dbdceeabd29a0ea7bf1af))
+* **id-austria:** `remove-root-detection` patch ([3cf77cd](https://github.com/revanced/revanced-patches/commit/3cf77cdb4ebbd128d29eedefa1ee35289e3c8058))
+* **id-austria:** `spoof-signature` patch ([355a847](https://github.com/revanced/revanced-patches/commit/355a847b1ccd69c4ab2c356395c97b4871e53f1f))
+* **nova-launcher:** `unlock-prime` patch ([#1463](https://github.com/revanced/revanced-patches/issues/1463)) ([cf710b2](https://github.com/revanced/revanced-patches/commit/cf710b27740cce4b9a0fbdf03a494eb8c65246da))
 
   
 **App Versions:**  
+Music (arm64-v8a): 5.39.52  
 YouTube: 17.49.37  
-Music (arm64-v8a): 5.36.51  
-Music (arm-v7a): 5.36.51  
-Twitter: 9.69.1-release.0  
-Reddit: 2022.45.0  
-Twitch: 14.3.2  
-Tiktok: 27.2.5  
-
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
+Music (arm-v7a): 5.39.52  
+Twitter: 9.72.0-release.0  
+Reddit: 2022.43.0  
+Twitch: 14.3.3  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
