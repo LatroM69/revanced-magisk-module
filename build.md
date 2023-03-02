@@ -1,26 +1,22 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.95.0.apk  
-Patches: revanced-patches-2.159.0.jar  
+Integrations: revanced-integrations-0.99.0.apk  
+Patches: revanced-patches-2.164.0.jar  
 
-### [2.159.0](https://github.com/revanced/revanced-patches/compare/v2.158.0...v2.159.0) (2023-02-03)
-### Bug Fixes
-* **youtube/custom-branding:** correct scaling, margin and images ([#1580](https://github.com/revanced/revanced-patches/issues/1580)) ([491c413](https://github.com/revanced/revanced-patches/commit/491c4138f0185664a9c5d3db9ebdf026ff4594e8))
+### [2.164.0](https://github.com/revanced/revanced-patches/compare/v2.163.0...v2.164.0) (2023-02-24)
 ### Features
-* `spoof-wifi-connection` patch ([#1527](https://github.com/revanced/revanced-patches/issues/1527)) ([adce206](https://github.com/revanced/revanced-patches/commit/adce206d66e1f7017328fe68a5818d424f70e588))
-* **music:** bump patches compatibility to v5.41.50 ([#1551](https://github.com/revanced/revanced-patches/issues/1551)) ([0b1024a](https://github.com/revanced/revanced-patches/commit/0b1024ab754a3e2ce798a54cccda6f41f97069a5))
-* **netguard:** `remove-broadcasts-restriction` patch ([#1581](https://github.com/revanced/revanced-patches/issues/1581)) ([73132e3](https://github.com/revanced/revanced-patches/commit/73132e37cf83f4c1f05cf6a184dfd8e454f7456e))
-* **spotify-lite:** enable on-demand patch ([9f0de4f](https://github.com/revanced/revanced-patches/commit/9f0de4f5678e9f57baaf6ec788821641d75defdc))
-* **youtube:** `hide-player-buttons` patch ([3469d37](https://github.com/revanced/revanced-patches/commit/3469d37bcedfd2dfbe46231b17cd098b591810c1))
+* **photomath:** `unlock-plus` patch ([#1633](https://github.com/revanced/revanced-patches/issues/1633)) ([a673514](https://github.com/revanced/revanced-patches/commit/a673514f848e583513924a6a9b8cfbb56153cc3a))
+* **youtube/general-ads:** hide quick actions in fullscreen ([fff9670](https://github.com/revanced/revanced-patches/commit/fff9670a81108b8343d0b7913953fc6c2bb4a6f0))
+* **youtube/general-ads:** hide related videos in quick action ([d23c31a](https://github.com/revanced/revanced-patches/commit/d23c31a9ec39189e08474044ac5ca06d974add76))
+* **youtube/return-youtube-dislike:** support for shorts ([#1596](https://github.com/revanced/revanced-patches/issues/1596)) ([967c1cb](https://github.com/revanced/revanced-patches/commit/967c1cbd4b340a382a355f13d236d2881bafddbf))
+* **youtube:** remove patch `open-links-directly` ([79291a0](https://github.com/revanced/revanced-patches/commit/79291a0d34bd9514cbef5d97c21c59dfbffad287))
 
   
 **App Versions:**  
 YouTube: 18.03.36  
-Music (arm64-v8a): 5.41.50  
-Music (arm-v7a): 5.41.50  
-Twitter: 9.69.1-release.0  
-Reddit: 2022.43.0  
-Twitch: 14.4.0  
-TikTok: 27.8.3  
+Music (arm64-v8a): 5.39.52  
+Twitter: 9.71.0-release.0  
+Reddit: 2023.05.0  
+Twitch: 14.6.1  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
