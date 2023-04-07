@@ -21,6 +21,9 @@ Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/relea
      * handle installation of the correct version of the stock app and all that
 
 #### **Note that the [CI workflow](../../actions/workflows/ci.yml) is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.**
+* Use [mindetach](https://github.com/j-hc/mindetach-magisk) to block Play Store from updating YouTube.
+* Non-root versions of YouTube require [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases/latest) to work.
+* For YouTube Music, use better FOSS apps like [InnerTune](https://github.com/z-huang/InnerTune), [ViMusic](https://github.com/vfsfitvnm/ViMusic), [VibeMusic](https://github.com/sheikhhaziq/vibemusic), [Harmonoid](https://github.com/harmonoid/harmonoid), [BlackHole](https://github.com/Sangwan5688/BlackHole)
 
 ## To include/exclude patches or patch more ReVanced Apps
 [**See the list of patches**](https://github.com/revanced/revanced-patches#-patches)
@@ -31,19 +34,4 @@ Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/relea
  * Run the build [workflow](../../actions/workflows/build.yml)
  * Grab your modules and APKs from [releases](../../releases)
 
-To add more ReVanced apps or build ReVanced Extended `config.toml`, read here [`CONFIG.md`](./CONFIG.md)
 
-# Building Locally
-## On Termux
-```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
-```
-
-## On Desktop
-Make sure you have JDK 17 and jq installed. Then run:
-
-```console
-$ git clone --recurse https://github.com/j-hc/revanced-magisk-module
-$ cd revanced-magisk-module
-$ ./build.sh
-```
