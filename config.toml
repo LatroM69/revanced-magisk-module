@@ -43,7 +43,8 @@ arch = "both"
 
 [Twitter]
 build-mode = "apk"
-version = "auto"
+version = "latest"
+excluded-patches = "hide-views-stats"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
@@ -57,7 +58,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-includin
 
 [Reddit]
 build-mode = "apk"
-version = "auto"
+version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Messenger]
