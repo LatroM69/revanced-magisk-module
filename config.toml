@@ -35,8 +35,3 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 build-mode = "apk"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
-
-[CandyLinkVPN]
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/liondev-io/candylink-vpn/"
