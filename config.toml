@@ -61,6 +61,16 @@ build-mode = "apk"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
+[Trakt]
+build-mode = "apk"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
+
+[CandyVPN]
+build-mode = "apk"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
+
 [Messenger]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
