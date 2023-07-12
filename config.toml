@@ -37,7 +37,7 @@ version = "auto"
 enabled = true
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
-version = "9.96.0"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 
 
