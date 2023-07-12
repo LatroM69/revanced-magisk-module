@@ -6,16 +6,19 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
 version = "auto"
 excluded-patches = "custom-branding enable-debugging vanced-microg-support"
 
 [Twitch]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 version = "auto"
 
 [Music]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 build-mode = "both"
@@ -23,10 +26,12 @@ version = "auto"
 excluded-patches = "vanced-microg-support"
 
 [Reddit]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 version = "auto"
 
 [Twitter]
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 version = "auto"
 excluded-patches = "hide-views-stats"
