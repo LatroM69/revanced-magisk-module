@@ -32,5 +32,5 @@ version = "auto"
 excluded-patches = "hide-views-stats"
 
 [tv.trakt.trakt]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/tv.trakt.trakt/"
 version = "auto"
