@@ -31,10 +31,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 version = "auto"
 excluded-patches = "hide-views-stats"
 
-[com.candylink.openvpn]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/liondev-io/candylink-vpn/"
-version = "auto"
-
 [tv.trakt.trakt]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/trakt/trakt/"
 version = "auto"
