@@ -30,7 +30,3 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 version = "auto"
 excluded-patches = "hide-views-stats"
-
-[tv.trakt.trakt]
-apkmonk-dlurl = "https://www.apkmonk.com/app/tv.trakt.trakt/"
-version = "auto"
