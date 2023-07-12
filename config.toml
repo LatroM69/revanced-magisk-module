@@ -33,5 +33,5 @@ version = "auto"
 [Twitter]
 enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-version = "auto"
+version = "9.96.0"
 excluded-patches = "hide-views-stats"
