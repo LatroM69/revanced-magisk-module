@@ -1,13 +1,27 @@
-        
+                
 [
   {
-    "patchName": "theme",
+    "patchName": "Custom branding YouTube name",
     "options": [
       {
-        "key": "darkThemeBackgroundColor",
-        "value": "332d38"
+        "key": "YouTubeAppName",
+        "value": "YouTube"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding Music name",
+    "options": [
+      {
+        "key": "MusicLongName",
+        "value": "YouTube Music"
+      },
+      {
+        "key": "MusicShortName",
+        "value": "YouTube Music"
       }
     ]
   }
 ]
+        
         
