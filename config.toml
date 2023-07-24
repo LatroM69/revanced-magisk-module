@@ -6,38 +6,44 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-enabled = true
-build-mode = "both"
-excluded-patches = "custom-branding enable-debugging vanced-microg-support"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "lat rvx"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-magisk"
+included-patches = "add-splash-animation force-premium-heading materialyou"
+excluded-patches = "custom-branding-icon-revancify-blue custom-branding-icon-mmt custom-branding-icon-revancify-red custom-package-name microg-support spoof-app-version theme translations"
+
+[YouTube Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "lat rvx"
+apkmirror-arch = "arm64-v8a"
+version = "6.10.52"
+excluded-patches = "custom-branding-icon-revancify-blue custom-package-name microg-support spoof-app-version translations"
+
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "lat rvx"
+version = "auto"
+included-patches = "disable-screenshot-popup hide-ads premium-icon-reddit sanitize-sharing-links"
+exclusive-patches = true
 
 [Twitch]
 enabled = true
 build-mode = "apk"
 version = "auto"
+excluded-patches = "debug-mode"
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
-[Music]
-enabled = true
-build-mode = "both"
-excluded-patches = "vanced-microg-support"
-version = "auto"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "arm64-v8a"
-
-[Reddit]
-enabled = true
-build-mode = "apk"
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-version = "auto"
 
 [Twitter]
 enabled = true
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
-version = "9.96.0-release.0"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 
 
