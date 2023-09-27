@@ -30,8 +30,3 @@ build-mode = "apk"
 included-patches = "auto-claim-channel points block-audio-ads block-embedded-ads block-video-ads settings show-deleted-messages"
 excluded-patches = "debug-mode"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-
-[Reddit]
-build-mode = "apk"
-included-patches = "disable-screenshot-popup hide-ads premium-icon-reddit sanitize-sharing-links"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
