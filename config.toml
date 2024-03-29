@@ -7,8 +7,8 @@ build-mindetach-module = true
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "'Enable debugging' 'Spoof app version' 'Vanced MicroG support' 'Wide searchbar' 'Client spoof'"
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
+excluded-patches = "'Enable debugging' 'Spoof app version' 'Wide searchbar' 'Client spoof'"
+included-patches = "'GmsCore support'"                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
